@@ -1,0 +1,74 @@
+/*Make sure that the padding and border are included in the
+total width and height of the elements.*/
+* {
+  box-sizing: border-box;
+}
+/*Default style for all anchor elements */
+a{
+  color:darkblue;
+}
+/*Style the Header */
+header{
+  background-color: #3f3e42;
+  color: #FFFFFF;
+  text-align: center;
+}
+.headerLink{
+  color: lightblue;
+}
+h1{
+  padding-top: 2em;
+  text-shadow: 3px 3px #000000;
+}
+/* style the hero image */
+#img-div{
+  display: block;
+}
+img{
+  max-width: 100%;
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 6px solid #000000;
+  margin: auto;
+}
+figcaption{
+  padding-bottom: 3em;
+  font-style: italic;
+  font-size: small;
+}
+/* Style the main wrapper div */
+main{
+  background-color: #d4cbc4;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*Style the tribute info section */
+#tribute-info{
+  padding:2em;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+blockquote{
+
+}
+
+.quote{
+  font-style: oblique;
+}
+
+ /*Style the Footer */
+ footer{
+   background-color: #5D5C61;
+   color: #FFFFFF;
+   text-align: center;
+ }
+.footerLink {
+  color: lightblue;
+}
